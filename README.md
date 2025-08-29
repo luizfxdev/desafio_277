@@ -76,7 +76,7 @@ Simplesmente abra o index.html em seu navegador favorito!
 📊 Veja o resultado detalhado com o passo a passo da magia
 🔄 Use "RETORNAR" para limpar e tentar novamente
 
-###💡 Dica Rápida
+### 💡 Dica Rápida
 Dê um duplo-clique no campo de entrada para carregar um exemplo automático!
 
 ### 🛠️ Tecnologias
@@ -126,6 +126,7 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 ## 🔗 Links
 
 ***🌐 Repositório: github.com/luizfxdev/desafio_277***
+
 ***🎵 Trilha Original: Window to Another World - Game Ambiences***
 
 
