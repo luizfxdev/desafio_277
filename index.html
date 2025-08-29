@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Floresta Encantada - Labirinto de Códigos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video autoplay muted loop id="background-video">
+      <source src="assets/background.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Áudio de Background -->
+    <audio autoplay loop id="background-audio">
+      <source src="assets/background.mp3" type="audio/mpeg" />
+      Seu navegador não suporta áudio HTML5.
+    </audio>
+
+    <!-- Container Principal -->
+    <div class="main-container">
+      <div class="header">
+        <h1>🌲 A Floresta Encantada ✨</h1>
+        <p>Decifre o padrão mágico e encontre o Pixel de Ouro!</p>
+      </div>
+
+      <!-- Área de Entrada -->
+      <div class="input-section">
+        <label for="matrix-input">Entre com a matriz (separar números por espaços, linhas por quebras):</label>
+        <textarea id="matrix-input" placeholder="Exemplo:&#10;1 2 3&#10;4 5 6&#10;7 8 9" rows="6"></textarea>
+      </div>
+
+      <!-- Área dos Botões -->
+      <div class="buttons-section">
+        <button class="magic-button" id="decipher-btn" style="--clr: #39ff14">
+          <span>DESBRAVAR</span>
+          <i></i>
+        </button>
+        <button class="magic-button" id="return-btn" style="--clr: #ff6b35">
+          <span>RETORNAR</span>
+          <i></i>
+        </button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="result-section" id="result-section">
+        <h3>🔮 Resultado da Magia</h3>
+        <div class="result-content" id="result-content">
+          <p class="result-placeholder">Aguardando o padrão mágico ser decifrado...</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
